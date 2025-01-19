@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import { Button } from '@/components/ui/button'
-import { GrDeliver } from "react-icons/gr";
-import { FaRegCheckCircle } from "react-icons/fa";
-import { BiSolidPurchaseTag } from "react-icons/bi";
-import { LuSprout } from "react-icons/lu";
-import Head from '../components/Head';
-import Image from 'next/image'
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Head from '../components/Head';
+import { Button } from '@/components/ui/button';
+import { GrDeliver } from 'react-icons/gr';
+import { FaRegCheckCircle } from 'react-icons/fa';
+import { BiSolidPurchaseTag } from 'react-icons/bi';
+import { LuSprout } from 'react-icons/lu';
+import Image from 'next/image';
 const page = () => {
     return (
         <div>
@@ -22,7 +22,7 @@ const page = () => {
                     <Button>View collection</Button>
                     <div className='relative ml-56  w-[640px] h-[20px]'>
                         <Image
-                            src="/Image.jpg"
+                            src="/on.jpg"
                             alt=''
                             width={630}
                             height={470}

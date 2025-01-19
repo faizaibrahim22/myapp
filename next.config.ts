@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
+import path from 'path';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  webpack(config) {
+    // Example of using the path module in webpack
+    config.resolve?.modules?.push(path.resolve('./'));
+    return config;
+  },
 };
 
 export default nextConfig;
